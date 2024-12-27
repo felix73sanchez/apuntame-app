@@ -1,0 +1,10 @@
+server:
+  port: 7373
+spring:
+  application:
+    name: apuntame-app
+  datasource:
+    initialize: false
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
